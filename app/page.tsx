@@ -358,30 +358,30 @@ export default function Portfolio() {
 
             <div className="grid md:grid-cols-2 gap-8">
               {projects.map((project, index) => (
-                <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                  <div className="h-48 bg-gradient-to-br from-blue-500 to-purple-600"></div>
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
-                    <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
+               <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
+  <CardContent className="p-6">
+    <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
+    <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
 
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      {project.tech.map((tech) => (
-                        <Badge key={tech} variant="outline" className="text-xs">
-                          {tech}
-                        </Badge>
-                      ))}
-                    </div>
+    <div className="flex flex-wrap gap-2 mb-4">
+      {project.tech.map((tech) => (
+        <Badge key={tech} variant="outline" className="text-xs">
+          {tech}
+        </Badge>
+      ))}
+    </div>
 
-                    <div className="flex gap-3">
-                      <Button variant="outline" size="sm" className="w-full" asChild>
-                        <a href={project.github} target="_blank" rel="noopener noreferrer">
-                          <Github className="mr-2 h-4 w-4" />
-                          View Code
-                        </a>
-                      </Button>
-                    </div>
-                  </CardContent>
-                </Card>
+    <div className="flex gap-3">
+      <Button variant="outline" size="sm" className="w-full" asChild>
+        <a href={project.github} target="_blank" rel="noopener noreferrer">
+          <Github className="mr-2 h-4 w-4" />
+          View Code
+        </a>
+      </Button>
+    </div>
+  </CardContent>
+</Card>
+
               ))}
             </div>
           </div>
