@@ -49,9 +49,9 @@ export default function Portfolio() {
     {
       title: "AI-Driven Mortgage Chatbot",
       description:
-        "AI chatbot that streamlines mortgage applications using Playwright, Browserbase, and Stagehand with Supabase integration",
+        "AI chatbot with automated Reddit scraper that collects data from r/FirstTimeHomeBuyer every hour, stores it in Supabase, and enables users to query real mortgage experiences through Supabase MCP integration",
       tech: ["Playwright", "Browserbase", "Stagehand", "Supabase", "AI/ML"],
-      github: "https://github.com/ethankang26",
+      github: "https://github.com/ethankang26/chatbot",
       demo: "#",
     },
     {
@@ -59,7 +59,7 @@ export default function Portfolio() {
       description:
         "Node.js backend with configurable rule engine and React dashboard for simulating industrial automation",
       tech: ["Node.js", "Express", "React", "Next.js", "Tailwind CSS"],
-      github: "https://github.com/ethankang26",
+      github: "https://github.com/ethankang26/simulated-factory-dashboard",
       demo: "#",
     },
     {
@@ -67,7 +67,7 @@ export default function Portfolio() {
       description:
         "Full-stack task management web app with inline editing, filtering, and overdue detection for students",
       tech: ["Express.js", "SQLite", "Mustache.js", "Bootstrap", "JavaScript"],
-      github: "https://github.com/ethankang26",
+      github: "https://github.com/ethankang26/Study-Planner-Deadline-Tracker",
       demo: "#",
     },
     {
@@ -161,7 +161,7 @@ export default function Portfolio() {
                 className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
                 asChild
               >
-                <a href="/resume.pdf" download="Ethan_Kang_Resume.pdf">
+                <a href="/resume.pdf" download="resume.pdf">
                   <Download className="mr-2 h-4 w-4" />
                   Download Resume
                 </a>
