@@ -161,7 +161,7 @@ export default function Portfolio() {
                 className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
                 asChild
               >
-                <a href="/resume.pdf" download="ethan_kang_resume.pdf">
+                <a href="/ethan_kang_resume.pdf" download="ethan_kang_resume.pdf">
                   <Download className="mr-2 h-4 w-4" />
                   Download Resume
                 </a>
