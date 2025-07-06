@@ -463,7 +463,6 @@ export default function Portfolio() {
             </div>
 
             <div className="mb-8">
-              <p className="text-gray-600 dark:text-gray-300 mb-2">📱 Phone: 905-401-1984</p>
               <p className="text-gray-600 dark:text-gray-300">
                 📍 Niagara Falls, ON | Available for co-op opportunities Fall 2025
               </p>
