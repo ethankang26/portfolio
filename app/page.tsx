@@ -228,7 +228,7 @@ export default function Portfolio() {
                     <div className="text-sm text-gray-600 dark:text-gray-300">Major Projects</div>
                   </div>
                   <div className="text-center p-4 bg-white dark:bg-gray-700 rounded-lg">
-                    <div className="text-2xl font-bold text-purple-600">2</div>
+                    <div className="text-2xl font-bold text-purple-600">3</div>
                     <div className="text-sm text-gray-600 dark:text-gray-300">Co-op Terms</div>
                   </div>
                 </div>
