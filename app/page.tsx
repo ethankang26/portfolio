@@ -80,6 +80,13 @@ export default function Portfolio() {
   ]
 
   const experience = [
+     {
+      title: "Controls Systems Engineer Intern",
+      company: "General Motors",
+      period: "September 2025 - Present",
+      description:
+        "Developing and optimizing control systems for automotive manufacturing, supporting PLC programming, troubleshooting, and process improvements to enhance efficiency and reliability.",
+    },
     {
       title: "Software Engineer",
       company: "Unrepped",
