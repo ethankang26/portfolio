@@ -90,7 +90,7 @@ export default function Portfolio() {
     {
       title: "Software Engineer",
       company: "Unrepped",
-      period: "May 2025 - Present",
+      period: "May 2025 - August 2025",
       description:
         "Leading development of AI-driven chatbots for mortgage applications and building data pipelines for real-world mortgage insights using modern web technologies and automation tools.",
     },
